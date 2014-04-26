@@ -35,8 +35,6 @@ cacheSolve <- function(x, ...) {
   
   if(!is.null(inverted)) {     #  if we have it, inverted will not be null. 
    
-    message("getting cached inverse")          #  removing this message will not affect functionality
-    
     return(inverted)           #  return the cached version - we are done.
       
   }
